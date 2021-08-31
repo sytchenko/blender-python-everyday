@@ -1,7 +1,8 @@
 import bpy
 from mathutils import Vector
 
-#Get Median Point From selected Vertices
+# Get Median Point From selected Vertices
+# Blender 2.8, Blender 2.9
 
 def medianPoint (obj):
 	me = obj.data
